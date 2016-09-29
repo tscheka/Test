@@ -1,0 +1,11 @@
+const fs = require ('fs');
+function importFile() {
+var output = fs.readFileSync('TestDaten.xml', 'utf8');
+	// // .trim()
+	// // .split('/n')
+	// // .map(line => line.split('\t'))
+	// // .reduce
+// console.log(output);
+console.log(output);
+}
+importFile();
